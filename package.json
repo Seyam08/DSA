@@ -1,0 +1,19 @@
+{
+  "name": "dsa",
+  "version": "1.0.0",
+  "description": "DSA by javascript",
+  "license": "ISC",
+  "author": "Seyam Hossain",
+  "type": "module",
+  "main": "./output/index.js",
+  "scripts": {
+    "dev": "tsx watch --include \"./src/*\" ./src/index.ts",
+    "start": "node ./dist/index.js",
+    "build": "rimraf dist && tsc --build"
+  },
+  "dependencies": {
+    "rimraf": "^6.0.1",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3"
+  }
+}
