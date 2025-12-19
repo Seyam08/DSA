@@ -1,9 +1,9 @@
 // call all the functions here to see the results
 
-import { factorial } from "./factorial_number/brute_force_solution.js";
+import { isPrime } from "./prime_number/optimal_solution.js";
 
-console.log(factorial(0));
-console.log(factorial(1));
-console.log(factorial(3));
-console.log(factorial(4));
-console.log(factorial(5));
+console.log(isPrime(0));
+console.log(isPrime(1));
+console.log(isPrime(2));
+console.log(isPrime(25));
+console.log(isPrime(16));
