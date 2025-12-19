@@ -3,7 +3,7 @@
 
 // it is the optimal solution
 
-export function factorial(number: number): number {
+export function calculateFactorial(number: number): number {
   if (number < 0) {
     throw new Error("number must be positive value");
   }

@@ -3,7 +3,7 @@
 
 // it is the optimal solution
 
-export function fibonacci(limit: number): Array<number> {
+export function generateFibonacci(limit: number): Array<number> {
   let sequence = [0, 1];
   let firstElement = 0;
   let secondElement = 1;
