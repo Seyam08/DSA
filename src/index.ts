@@ -1,11 +1,9 @@
 // call all the functions here to see the results
 
-import { fibonacci } from "./fibonacci_sequence/brute_force_solution.js";
+import { factorial } from "./factorial_number/brute_force_solution.js";
 
-console.log(fibonacci(0));
-console.log(fibonacci(1));
-console.log(fibonacci(2));
-console.log(fibonacci(3));
-console.log(fibonacci(5));
-console.log(fibonacci(7));
-console.log(fibonacci(9));
+console.log(factorial(0));
+console.log(factorial(1));
+console.log(factorial(3));
+console.log(factorial(4));
+console.log(factorial(5));
