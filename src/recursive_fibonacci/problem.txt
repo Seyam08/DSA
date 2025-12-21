@@ -1,0 +1,22 @@
+Recursive Fibonacci sequence
+Problem - Give a number 'n', find the nth element of the Fibonacci sequence
+In mathematics, the Fibonacci sequence is a sequence in which each number is the sum of the
+two preceding ones.
+The first two numbers in the sequence are 0 and 1. (0, 1, 1, 2, 3, 5, 8...)
+A
+recursiveFibonacci(0) = 0
+recursiveFibonacci(1) = 1
+recursive Fibonacci(6) = 8
+
+
+
+Recursive Fibonacci sequence contd.
+The Fibonacci sequence is a sequence in which each number is the sum of the two preceding
+ones.
+If F represents a function to calculate the Fibonacci number, then
+Fn = Fn-1 + Fn-2
+F = 0 and F1 = 1
+F₂ = F₁ 1 + Fo
+F₂ = 1+0
+2
+F₂ = 1
