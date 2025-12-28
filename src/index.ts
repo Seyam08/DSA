@@ -1,12 +1,5 @@
 // call all the functions here to see the results
 
-import { getNthItemOfFibonacci } from "./recursive_fibonacci/optimal_solution.js";
+import linearSearch from "./linear_search/brute_force_slution.js";
 
-console.log(getNthItemOfFibonacci(0));
-console.log(getNthItemOfFibonacci(1));
-console.log(getNthItemOfFibonacci(2));
-console.log(getNthItemOfFibonacci(3));
-console.log(getNthItemOfFibonacci(4));
-console.log(getNthItemOfFibonacci(5));
-console.log(getNthItemOfFibonacci(6));
-console.log(getNthItemOfFibonacci(7));
+console.log(linearSearch([1, 2, 3, 4, 5], 6));
