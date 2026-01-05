@@ -1,7 +1,7 @@
 // call all the functions here to see the results
 
-import { binarySearch } from "./binary_search/brute_force_solution.js";
+import { RecursiveBinary } from "./binary_search/recursive_binary_search.js";
 
-console.log(binarySearch([1, 2, 3, 4, 5], 6));
-console.log(binarySearch([1, 2, 3, 4, 5], 2));
-console.log(binarySearch([1, 2, 3, 4, 5], 4));
+console.log(RecursiveBinary([1, 2, 3, 4, 5], 6));
+console.log(RecursiveBinary([1, 2, 3, 4, 5, 12, 23, 56, 78], 12));
+console.log(RecursiveBinary([1, 2, 3, 4, 5], 4));
