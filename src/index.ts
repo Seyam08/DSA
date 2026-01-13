@@ -1,5 +1,5 @@
 // call all the functions here to see the results
 
-import { bubbleSort } from "./bubble_sort/brute_force_solution.js";
+import { insertionSort } from "./insertion_sort/brute_force_solution.js";
 
-console.log(bubbleSort([4, 2, -3, 8, 5]));
+console.log(insertionSort([4, 2, -3, 8, 5]));
