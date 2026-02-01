@@ -1,5 +1,10 @@
 // call all the functions here to see the results
 
-import { cartesianProduct } from "./cartesian_product/optimal_solution.js";
+import { climbStairs } from "./climbing_staircase/optimal_solution.js";
 
-console.log(cartesianProduct([4, 2, -3, 8, 5], [7, 1], [4, 6, 7, 2]));
+console.log(climbStairs(1));
+console.log(climbStairs(2));
+console.log(climbStairs(3));
+console.log(climbStairs(4));
+console.log(climbStairs(5));
+console.log(climbStairs(6));
